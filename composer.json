@@ -1,0 +1,19 @@
+{
+    "name": "binasaranainformatika/belajar-composer-hello",
+    "description": "Library Composer Hello",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Binasaranainformatika\\BelajarComposerHello\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dion Sutrisna",
+            "email": "bsi@gmail.om"
+        }
+    ],
+    "require": {
+        "php" : ">=8.0"
+    }
+}
